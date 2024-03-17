@@ -16,7 +16,7 @@ class Coinwidget extends StatelessWidget {
       decoration: BoxDecoration(
           color: cryptoCoin.priceChange24H! < 0
               ? const Color.fromARGB(60, 83, 49, 49)
-              : Color.fromARGB(86, 81, 122, 83),
+              : const Color.fromARGB(86, 81, 122, 83),
           borderRadius: BorderRadius.circular(5)),
       height: 57,
       child: Padding(

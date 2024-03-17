@@ -17,7 +17,7 @@ class WatchlistCard extends StatelessWidget {
       margin: const EdgeInsets.symmetric(horizontal: 15, vertical: 7.5),
       decoration: BoxDecoration(
           color: cryptoCoin.priceChange24H! < 0
-              ? Color.fromARGB(62, 92, 71, 71)
+              ? const Color.fromARGB(62, 92, 71, 71)
               : const Color.fromARGB(88, 76, 175, 79),
           borderRadius: BorderRadius.circular(5)),
       height: 70,
