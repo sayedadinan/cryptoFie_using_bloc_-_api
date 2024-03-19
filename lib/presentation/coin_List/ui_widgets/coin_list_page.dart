@@ -55,7 +55,7 @@ class _CoinlistpageState extends State<Coinlistpage> {
             if (state is CoinErrorState) {
               return const Center(
                 child: Text(
-                  'Error Occured Fetchind Data',
+                  'Error Occured Fetching Data something went wrong',
                   style: TextStyle(color: Colors.white),
                 ),
               );
